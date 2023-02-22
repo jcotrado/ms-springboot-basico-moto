@@ -10,6 +10,6 @@ import com.convergenciax.moto.service.entidades.Moto;
 @Repository
 public interface MotoRepository extends JpaRepository<Moto, Integer> {
 
-	List<Moto> findByUsuario(int usuarioId);
+	List <Moto> findByUsuarioId(int usuarioId);
 
 }

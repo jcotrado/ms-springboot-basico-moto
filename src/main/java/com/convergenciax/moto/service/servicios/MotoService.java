@@ -29,7 +29,7 @@ public class MotoService {
 	}
 	
 	public List <Moto> byUsuarioId(int usuarioId){
-		return motoRepository.findByUsuario(usuarioId);
+		return motoRepository.findByUsuarioId(usuarioId);
 	}
 	
 }
